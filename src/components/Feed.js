@@ -44,54 +44,54 @@ const Feed = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
-        <Box
-          sx={{
-            display: "flex",
-            mt: "10px",
-            alignItems: "center",
-            justifyContent: "space-evenly",
-            flexDirection: "column",
-          }}
-        >
-          <Typography
-            className="copyright"
-            variant="caption"
-            sx={{ mx: 1.5, color: "#fff" }}
-            my="14px"
-            textAlign="center"
-          >
-            &copy;{new Date().getFullYear()} uToob
-          </Typography>
-          <Typography
-            className="info"
-            variant="h6"
-            display="flex"
-            alignItems="center"
-            justifyContent="space-evenly"
-            width="100%"
-            marginTop="4px"
-          >
-            <a
-              style={{ color: "#fff" }}
-              target="_blank"
-              href="https://github.com/dipanshurdev"
-              rel="noreferrer"
-            >
-              <GitHub color="#fff" fontSize="50px" />
-            </a>
-            <a
-              style={{ color: "#fff" }}
-              target="_blank"
-              href="https://www.linkedin.com/in/dipanshurdev"
-              rel="noreferrer"
-            >
-              <LinkedIn color="#fff" fontSize="50px" />
-            </a>
-            <a style={{ color: "#fff" }}>
-              <Public color="#fff" fontSize="50px" />
-            </a>
-          </Typography>
-        </Box>
+        // <Box
+        //   sx={{
+        //     display: "flex",
+        //     mt: "10px",
+        //     alignItems: "center",
+        //     justifyContent: "space-evenly",
+        //     flexDirection: "column",
+        //   }}
+        // >
+        //   <Typography
+        //     className="copyright"
+        //     variant="caption"
+        //     sx={{ mx: 1.5, color: "#fff" }}
+        //     my="14px"
+        //     textAlign="center"
+        //   >
+        //     &copy;{new Date().getFullYear()} uToob
+        //   </Typography>
+        //   <Typography
+        //     className="info"
+        //     variant="h6"
+        //     display="flex"
+        //     alignItems="center"
+        //     justifyContent="space-evenly"
+        //     width="100%"
+        //     marginTop="4px"
+        //   >
+        //     <a
+        //       style={{ color: "#fff" }}
+        //       target="_blank"
+        //       href="https://github.com/dipanshurdev"
+        //       rel="noreferrer"
+        //     >
+        //       <GitHub color="#fff" fontSize="50px" />
+        //     </a>
+        //     <a
+        //       style={{ color: "#fff" }}
+        //       target="_blank"
+        //       href="https://www.linkedin.com/in/dipanshurdev"
+        //       rel="noreferrer"
+        //     >
+        //       <LinkedIn color="#fff" fontSize="50px" />
+        //     </a>
+        //     <a style={{ color: "#fff" }}>
+        //       <Public color="#fff" fontSize="50px" />
+        //     </a>
+        //   </Typography>
+        // </Box>
       </Box>
       <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
         <Typography
